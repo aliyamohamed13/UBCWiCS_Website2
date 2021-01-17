@@ -66,6 +66,13 @@
     color: #686868;
   }
 
+  #company-information h2 {
+    color: white;
+  }
+  #company-information h1{
+    padding-bottom: 2%;
+  }
+
   h3{
     font-size: 18px;
   }
