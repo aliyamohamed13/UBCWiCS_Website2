@@ -72,6 +72,11 @@
   #company-information h1{
     padding-bottom: 2%;
   }
+#company-information img{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
 
   h3{
     font-size: 18px;
