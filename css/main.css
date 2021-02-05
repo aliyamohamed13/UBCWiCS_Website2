@@ -2761,7 +2761,7 @@ span.stButton_gradient,
 
 .iframe-cal {
   border-width: 0;
-  height: -webkit-fill-available;
+  height: 50em;
   width: -webkit-fill-available;
 }
 
