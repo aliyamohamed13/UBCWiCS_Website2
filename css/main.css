@@ -2732,6 +2732,8 @@ span.stButton_gradient,
 /*ExecTeam*/
 
 .exec-img {
-  max-width: 400px;
-  max-height: 410px;
+  height: 410px;
+  width: 410px;
+  background: transparent no-repeat center;
+  background-size: cover;
 }
