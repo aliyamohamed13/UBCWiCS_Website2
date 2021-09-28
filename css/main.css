@@ -12,7 +12,7 @@
 @import url(http://fonts.googleapis.com/css?family=Noto+Sans:400,700);
 
 body {
-  background: #1c183b;
+  background: #fff;
   font-family: "Lato", sans-serif;
   font-weight: 300;
   font-size: 14px;
@@ -31,7 +31,7 @@ p {
 a:hover {
   outline: none;
   text-decoration: none;
-  color: #4fcccd;
+  color: #818f8f;
 }
 
 a:focus {
@@ -54,23 +54,22 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Lato", sans-serif;
+  font-family: "Helvetica";
   font-weight: 300;
 }
 
 h1 {
-  color: #eeeeee;
-  text-transform: uppercase;
+  color: #373737;
   font-weight: 600;
 }
 
 h2 {
   font-size: 24px;
-  color: #686868;
+  color: #373737;
 }
 
 #company-information h2 {
-  color: white;
+  color: #373737;
 }
 #company-information h1 {
   padding-bottom: 2%;
@@ -95,11 +94,23 @@ h3 {
 
 .btn-common {
   font-size: 14px;
-  color: #0099ae;
-  border: 1px solid #0099ae;
+  color: #373737;
+  border: 1px solid #373737;
   font-family: "Open Sans", sans-serif;
   font-weight: 300;
   padding: 10px 25px;
+}
+
+.btn-style {
+  background: linear-gradient(126.3deg, #ffe9f0 0%, #6a6aff 121.93%);
+  border-radius: 50px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  padding: 10px 25px;
+  font-size: 14px;
+  color: #fff;
+  border: none;
+  /* font-weight: bold; */
 }
 
 #action .col-sm-5 {
@@ -163,7 +174,7 @@ h3 {
 }
 
 .carousel-indicators.visible-xs li {
-  border-color: #d29948;
+  border-color: #373737;
   border-width: 2px;
   height: 12px;
   margin: 0 5px 0 0;
@@ -171,7 +182,7 @@ h3 {
 }
 
 .carousel-indicators.visible-xs li.active {
-  background: rgba(210, 153, 72, 0.7);
+  background: #373737;
 }
 
 /*************************
@@ -233,21 +244,20 @@ h3 {
 .social-icons ul li a {
   font-size: 18px;
   padding: 0;
-  color: #fec548;
+  color: #373737;
 }
 
 .social-icons ul li a:hover,
 .social-icons ul li a:focus {
   background: none;
-  color: #85c3ec;
+  color: #7f7ff4;
 }
 
 #header .navbar {
-  background: #1c183b;
+  background: #fff;
   border: 0;
   margin-bottom: 0;
 }
-
 #header .navbar-toggle {
   margin-top: 20px;
 }
@@ -267,7 +277,7 @@ h3 {
 }
 
 #header .navbar-nav.navbar-right > li a {
-  color: #fec548;
+  color: #373737;
   font-size: 18px;
   padding: 20px;
   text-transform: uppercase;
@@ -280,11 +290,11 @@ h3 {
 .navbar-inverse .navbar-nav > .open > a {
   background-color: inherit;
   border: 0;
-  color: #85c3ec;
+  color: #373737;
 }
 
 #header .navbar-inverse .navbar-nav li a:hover {
-  color: #85c3ec;
+  color: #7f7ff4;
 }
 
 /*  Dropdown menu*/
@@ -294,7 +304,7 @@ ul.sub-menu {
   list-style: none;
   padding: 0;
   margin: 0;
-  background-color: #251d49;
+  background-color: #fff;
 }
 
 #header .navbar-nav li ul.sub-menu li a {
@@ -306,8 +316,8 @@ ul.sub-menu {
 }
 
 #header .navbar-nav li ul.sub-menu li .active {
-  background: #85c3ec;
-  color: #251d49;
+  background: #7f7ff4;
+  color: #fff;
   position: relative;
 }
 
@@ -315,7 +325,7 @@ ul.sub-menu {
   position: absolute;
   font-size: 56px;
   top: -13px;
-  color: #85c3ec;
+  color: #7f7ff4;
 }
 
 #header .navbar-nav li ul.sub-menu li .active .fa-angle-right {
@@ -328,7 +338,7 @@ ul.sub-menu {
 
 #header .navbar-nav li ul.sub-menu li a:hover,
 #header .navbar-nav li ul.sub-menu li a:focus {
-  background: #85c3ec;
+  background: #7f7ff4;
   color: #fff;
 }
 
@@ -379,18 +389,18 @@ ul.sub-menu {
   background-repeat: repeat-x;
   background-position: bottom;
   background-size: contain;
-  background-color: #251d49;
+  background-color: #fff;
 }
 
 #footer h1 {
   margin-bottom: 65px;
   margin-top: 36px;
-  color: #fec548;
+  color: #373737;
 }
 
 #footer p {
   text-align: center;
-  color: #fec548;
+  color: #373737;
 }
 
 #footer .bottom-separator {
@@ -532,8 +542,9 @@ ul.sub-menu {
 *******Home Page******
 **************************/
 #home-slider {
-  background: url(../images/home/slider-bg.png) 0 100% repeat-x;
+  /* background: url(../images/home/slider-bg.png) 0 100% repeat-x; */
   position: relative;
+  padding-bottom: 30px;
 }
 
 #home-slider .main-slider {
@@ -546,7 +557,7 @@ ul.sub-menu {
   top: 50px;
   left: 0;
   width: 450px;
-  color: #85c3ec;
+  color: #373737;
 }
 
 .animate-in .slide-text {
@@ -635,7 +646,7 @@ ul.sub-menu {
   top: 0;
   bottom: -30px;
   right: 0;
-  background: #1c183b;
+  background: #fff;
   text-align: center;
 }
 
@@ -643,7 +654,7 @@ ul.sub-menu {
   font-size: 48px;
   height: 48px;
   line-height: 48px;
-  color: #00aeef;
+  color: #373737;
   position: absolute;
   left: 50%;
   margin-left: -24px;
@@ -669,6 +680,10 @@ ul.sub-menu {
   position: statice;
 }
 
+.service-section {
+  background-color: rgba(253, 246, 236, 0.51);
+}
+
 .single-service {
   overflow: hidden;
   display: block;
@@ -685,14 +700,14 @@ ul.sub-menu {
 .single-service h2 {
   margin-top: 0;
   margin-bottom: 15px;
-  color: #eeeeee;
-  text-transform: uppercase;
+  color: #373737;
   font-weight: 500;
+  font-size: 30px;
 }
 
 .single-service p {
   padding: 0 48px;
-  color: #ff6383;
+  color: #373737;
 }
 
 .action h1 {
@@ -712,7 +727,7 @@ ul.sub-menu {
 
 .title {
   /* color: #404040; */
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .single-features {
@@ -765,7 +780,7 @@ ul.sub-menu {
 
 #page-breadcrumb {
   /* background-image: url(../images/home/tour-bg.png); */
-  background-color: #1c183b;
+  background-color: #fff;
   /* background-repeat: repeat-x; */
   height: 130px;
   background-position: center;
@@ -808,11 +823,26 @@ ul.sub-menu {
   position: relative;
 }
 
+.team-card {
+  background: #ffffff;
+  box-shadow: 0px 4px 20px rgba(124, 124, 124, 0.25);
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px;
+}
+
 .person-thumb {
   position: relative;
 }
 
 .person-thumb img {
+  border-radius: 5px;
+}
+
+.person-round img {
+  border-radius: 10px;
+  width: 400px;
+  height: 400px;
 }
 
 .social-profile {
@@ -830,12 +860,18 @@ ul.sub-menu {
 }
 
 .team-single:hover .social-profile {
-  background: rgba(112, 35, 64, 0.9);
+  background: linear-gradient(
+    139.04deg,
+    rgba(250, 220, 226, 0.8) 13.35%,
+    rgba(213, 199, 243, 0.8) 48.39%,
+    rgba(155, 153, 248, 0.8) 88.55%
+  );
   display: block;
   -webkit-animation: fadeInUp 400ms;
   animation: fadeInUp 400ms;
   -webkit-transition: all 0.9s ease;
   transition: all 0.9s ease;
+  border-radius: 5px;
 }
 
 .social-profile .nav-pills {
@@ -865,18 +901,19 @@ ul.sub-menu {
 }
 
 .social-profile .nav-pills li a:hover {
-  color: #702340;
-  border-color: #702340;
+  color: #7f7ff4;
+  border-color: #7f7ff4;
+  border-radius: 10px;
 }
 
 .person-info p {
-  color: #02d189;
+  color: #373737;
 }
 
 .person-info h2 {
   font-weight: 300;
   margin-bottom: 5px;
-  color: #eeeeee;
+  color: #373737;
 }
 
 #portfolio h2 {
@@ -1209,6 +1246,53 @@ ul.elements li > i {
 }
 
 /*****************************
+HomePage/Sponsor Div 
+*****************************/
+
+.sponsor-title {
+  font-size: 36px;
+  font-weight: 500px;
+  font-style: normal;
+  padding: 10px;
+}
+
+.sponsor-single {
+  padding: 20px;
+  max-width: 400px;
+  max-height: 400px;
+}
+
+.sponsor-row-div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.sponsor-parent-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.sponsor-section {
+  background-color: rgba(253, 246, 236, 0.51);
+  padding-bottom: 10px;
+  padding-top: 20px;
+  height: 600px;
+}
+
+/*****************************
+HomePage/Calendar Div 
+*****************************/
+
+.calendar-container {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+/*****************************
 Portfolio with right sidebar
 *****************************/
 
@@ -1382,6 +1466,46 @@ Portfolio with right sidebar
   border-radius: 60px;
 }
 
+/*************************
+*******Contact******
+**************************/
+
+.title-text-contact {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.text-contact {
+  font-size: 20px;
+  padding: 10px;
+}
+
+.sign-up-button-div {
+  padding: 20px;
+}
+
+.contact-parent-div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+}
+
+.contact-card {
+  width: 400px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-shadow: 0px 4px 10px rgba(124, 124, 124, 0.25);
+  border-radius: 10px;
+  padding: 20px;
+  margin: 30px;
+}
+
 /* Start: Recommended Isotope styles */
 
 /**** Isotope Filtering ****/
@@ -1427,7 +1551,7 @@ Portfolio with right sidebar
 Events page (2020-2021)
 *****************************/
 #portfolio-information p {
-  color: #85c3ec;
+  color: #565555;
   font-size: 18px;
 }
 
@@ -1436,7 +1560,7 @@ Events page (2020-2021)
 }
 #portfolio-information h2 {
   font-weight: 400;
-  color: #fec548;
+  color: #565555;
 }
 
 /*****************************
@@ -1458,13 +1582,13 @@ Executives
 h3 {
   margin-top: 0;
   margin-bottom: 15px;
-  color: #ff6383;
+  color: #7f7ff4;
 }
 .project-name a {
-  color: #fec548;
+  color: #565555;
 }
 .project-name a:hover {
-  color: #85c3ec;
+  color: #7f7ff4;
 }
 .project-name-with-mail h2 {
   display: inline-flex;
@@ -1497,7 +1621,7 @@ h3 {
 }
 
 .navbar-default li a:hover {
-  color: #0884d5;
+  color: #7f7ff4;
   background: none;
 }
 
@@ -1509,6 +1633,15 @@ h3 {
 .live-preview .btn-common {
   margin-top: 21px;
   padding: 13px 45px;
+}
+
+/*****************************
+Sponsor Page
+*****************************/
+
+.sponsor-pg-parent {
+  padding-top: 20px;
+  padding-bottom: 50px;
 }
 
 /*****************************
@@ -1569,7 +1702,7 @@ Blog Default
   border-style: solid;
   border-width: 60px;
   content: "";
-  border-color: transparent transparent #0884d5 transparent;
+  border-color: transparent transparent #7f7ff4 transparent;
   z-index: -1;
   cursor: initial;
 }
@@ -1600,7 +1733,7 @@ Blog Default
   border-left-style: solid;
   border-left-width: 1px;
   height: 100%;
-  border-left-color: #0099ae;
+  border-left-color: #7f7ff4;
   left: 50%;
   margin-left: -2px;
 }
@@ -1665,16 +1798,16 @@ Blog Default
 .post-content .post-author a {
   font-weight: 300;
   font-size: 14px;
-  color: #0099ae;
+  color: #7f7ff4;
 }
 
 a.read-more {
-  color: #0099ae;
+  color: #7f7ff4;
   font-weight: 300;
 }
 
 a.read-more:hover {
-  color: #01707f;
+  color: #7f7ff4;
 }
 
 .post-bottom {
@@ -1736,13 +1869,13 @@ Blog with right sidebar
 }
 
 .post-nav li a {
-  color: #0099ae;
+  color: #7f7ff4;
   padding: 0;
   text-align: left;
 }
 
 .post-nav li a i {
-  color: #0099ae;
+  color: #7f7ff4;
   margin-right: 8px;
 }
 
@@ -2701,7 +2834,7 @@ span.stButton_gradient,
 .nav-pills > li.active > a,
 .nav-pills > li.active > a:hover,
 .nav-pills > li.active > a:focus {
-  background-color: #4fcccd;
+  background-color: #7f7ff4;
 }
 
 .tab-content {
@@ -2714,7 +2847,7 @@ span.stButton_gradient,
 }
 .icon-wrapper {
   display: inline-block;
-  background-color: #4fcccd;
+  background-color: #7f7ff4;
   color: #fff;
   padding: 25px;
   box-shadow: 0 0 0 5px rgba(0, 0, 0, 0.1) inset;
@@ -2731,9 +2864,9 @@ span.stButton_gradient,
 
 /*ExecTeam*/
 
-.exec-img {
-  height: 410px;
-  width: 410px;
+.logo-img {
+  height: 60px;
+  width: 60px;
   background: transparent no-repeat center;
   background-size: cover;
 }

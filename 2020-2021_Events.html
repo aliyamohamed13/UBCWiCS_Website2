@@ -1,423 +1,620 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
     <title>2020-2021 Events | UBC WiCS</title>
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/font-awesome.min.css" rel="stylesheet">
-    <link href="css/lightbox.css" rel="stylesheet">
-    <link href="css/animate.min.css" rel="stylesheet">
-    <link href="css/main.css" rel="stylesheet">
-    <link href="css/responsive.css" rel="stylesheet">
-    <meta property='og:title' content="UBC Women in Computer Science" />
-    <meta property='og:image' content="img/wicsCircleLogo_notext" />
-    <meta property='og:description' content="This is the website for the UBC Women in Computer Science organization." />
-    <meta property='og:url' content="www.ubcwics.com" />
-    <link rel="shortcut icon" href="img/wicsCircleLogo_notext.png">
-</head>
-<!--/head-->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/font-awesome.min.css" rel="stylesheet" />
+    <link href="css/lightbox.css" rel="stylesheet" />
+    <link href="css/animate.min.css" rel="stylesheet" />
+    <link href="css/main.css" rel="stylesheet" />
+    <link href="css/responsive.css" rel="stylesheet" />
+    <meta property="og:title" content="UBC Women in Computer Science" />
+    <meta property="og:image" content="img/wicsCircleLogo_notext" />
+    <meta
+      property="og:description"
+      content="This is the website for the UBC Women in Computer Science organization."
+    />
+    <meta property="og:url" content="www.ubcwics.com" />
+    <link rel="shortcut icon" href="img/wicsCircleLogo_notext.png" />
+  </head>
+  <!--/head-->
 
-<body>
+  <body>
     <header id="header">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 overflow">
+            <div class="social-icons pull-right">
+              <ul class="nav nav-pills">
+                <li>
+                  <a href="https://www.facebook.com/ubcwics/" target="_blank"
+                    ><i class="fa fa-facebook"></i
+                  ></a>
+                </li>
+
+                <li>
+                  <a href="http://instagram.com/ubcwics" target="_blank"
+                    ><i class="fa fa-instagram"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="mailto:ubc-wics@cs.ubc.ca" target="_blank"
+                    ><i class="fa fa-envelope"></i
+                  ></a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.linkedin.com/company/68881213/admin/"
+                    target="_blank"
+                    ><i class="fa fa-linkedin"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="navbar navbar-inverse" role="banner">
         <div class="container">
-            <div class="row">
-                <div class="col-sm-12 overflow">
-                    <div class="social-icons pull-right">
-                        <ul class="nav nav-pills">
-                            <li><a href="https://www.facebook.com/ubcwics/" target="_blank"><i
-                                        class="fa fa-facebook"></i></a></li>
+          <div class="navbar-header">
+            <button
+              type="button"
+              class="navbar-toggle"
+              data-toggle="collapse"
+              data-target=".navbar-collapse"
+            >
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
 
-                            <li><a href="http://instagram.com/ubcwics" target="_blank"><i
-                                        class="fa fa-instagram"></i></a></li>
-                            <li><a href="mailto:ubc-wics@cs.ubc.ca" target="_blank"><i class="fa fa-envelope"></i></a>
-                            </li>
-                            <li><a href="https://www.linkedin.com/company/68881213/admin/" target="_blank"><i class="fa fa-linkedin"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="navbar navbar-inverse" role="banner">
-            <div class="container">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-
-                    <a class="navbar-brand" href="index.html">
-                        <h1><img src="img/wics logo.png" alt="logo"></h1>
-                    </a>
-
-                </div>
-                <div class="collapse navbar-collapse">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li><a href="index.html">Home</a></li>
-                        <li class="dropdown"><a>Our Team <i class="fa fa-angle-down"></i></a>
-                            <ul role="menu" class="sub-menu">
-                                <li><a href="faculty_advisors.html">Faculty Advisors</a></li>
-                                <li><a href="executives.html">Executives</a></li>
-                                <li>
-                                    <a href="pastExecs.html">Past Executive Team</a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="active dropdown"><a>Events<i class="fa fa-angle-down"></i></a>
-                            <ul role="menu" class="sub-menu">
-                                <li><a href="events_calendar.html">Events Calendar</a></li>
-                                <li><a href="ghc2020.html">Virtual GHC 2020</a></li>
-                                <li class="dropdown-submenu">
-                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
-                                        aria-haspopup="true" aria-expanded="false"> <span class="nav-label">Past
-                                            Events</span><span class="caret"></span></a>
-                                    <ul class="dropdown-menu">
-                                        <li><a href="2020-2021_Events.html">2020-2021</a></li>
-                                        <li><a href="2019-2020_Events.html">2019-2020</a></li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </li>
-                        <li><a href="contactUs.html">Contact Us</a></li>
-                        <li><a href="sponsors.html">Our Sponsors</a></li>
-
+            <a class="navbar-brand" href="index.html">
+              <h1>
+                <img
+                  class="logo-img"
+                  src="img/smalllogoframed.png"
+                  alt="logo"
+                />
+              </h1>
+            </a>
+          </div>
+          <div class="collapse navbar-collapse">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="index.html">Home</a></li>
+              <li class="dropdown">
+                <a>Our Team <i class="fa fa-angle-down"></i></a>
+                <ul role="menu" class="sub-menu">
+                  <li><a href="faculty_advisors.html">Faculty Advisors</a></li>
+                  <li><a href="executives.html">Executives</a></li>
+                  <li>
+                    <a href="pastExecs.html">Past Executive Team</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="active dropdown">
+                <a>Events<i class="fa fa-angle-down"></i></a>
+                <ul role="menu" class="sub-menu">
+                  <li><a href="events_calendar.html">Events Calendar</a></li>
+                  <li><a href="ghc2020.html">Virtual GHC 2020</a></li>
+                  <li class="dropdown-submenu">
+                    <a
+                      href="#"
+                      class="dropdown-toggle"
+                      data-toggle="dropdown"
+                      role="button"
+                      aria-haspopup="true"
+                      aria-expanded="false"
+                    >
+                      <span class="nav-label">Past Events</span
+                      ><span class="caret"></span
+                    ></a>
+                    <ul class="dropdown-menu">
+                      <li><a href="2020-2021_Events.html">2020-2021</a></li>
+                      <li><a href="2019-2020_Events.html">2019-2020</a></li>
                     </ul>
-                </div>
-            </div>
+                  </li>
+                </ul>
+              </li>
+              <li><a href="contactUs.html">Contact Us</a></li>
+              <li><a href="sponsors.html">Our Sponsors</a></li>
+            </ul>
+          </div>
         </div>
+      </div>
     </header>
     <!--/#header-->
 
-
     <section id="page-breadcrumb">
-        <div class="vertical-center sun">
-            <div class="container">
-                <div class="row">
-                    <div class="action">
-                        <div class="col-sm-12">
-                            <h1 class="title">2020-2021 Events</h1>
-                        </div>
-                    </div>
-                </div>
+      <div class="vertical-center sun">
+        <div class="container">
+          <div class="row">
+            <div class="action">
+              <div class="col-sm-12">
+                <h1 class="title">2020-2021 Events</h1>
+              </div>
             </div>
+          </div>
         </div>
+      </div>
     </section>
     <!--/#action-->
 
     <section id="portfolio-information">
-        <div class="container">
-            <!-- <div class="row"> -->
-            <div>
-                <h2>Axiom Zen Career Talk Event</h2>
-                <h3>April 16th</h3>
-                <p>
-During this event members had an opportunity to learn about internship opportunities, the full time application process, company culture, Axiom Zen’s tech stack and get any questions they had answered by company HR and engineering representatives! Around 20 students attended this event.                </p>
-                <div id="imageCarouselGHC" class="carousel slide" data-interval="5000" data-ride="carousel"
-                    data-pause="hover">
-                    <div class="carousel-inner">
-                        <div class="item active">
-                            <img class="center-block" src="img/Events/2020_2021/Term2/Apr_AZ.jpg"
-                                class="img-responsive">
-                        </div>
-                    </div>
-                </div>
+      <div class="container">
+        <!-- <div class="row"> -->
+        <div>
+          <h2>Axiom Zen Career Talk Event</h2>
+          <h3>April 16th</h3>
+          <p>
+            During this event members had an opportunity to learn about
+            internship opportunities, the full time application process, company
+            culture, Axiom Zen’s tech stack and get any questions they had
+            answered by company HR and engineering representatives! Around 20
+            students attended this event.
+          </p>
+          <div
+            id="imageCarouselGHC"
+            class="carousel slide"
+            data-interval="5000"
+            data-ride="carousel"
+            data-pause="hover"
+          >
+            <div class="carousel-inner">
+              <div class="item active">
+                <img
+                  class="center-block"
+                  src="img/Events/2020_2021/Term2/Apr_AZ.jpg"
+                  class="img-responsive"
+                />
+              </div>
             </div>
-                <div>
-                <h2>WiCS x Splunk Event</h2>
-                <h3>April 7th</h3>
-                <p>
-This event featured a short presentation from a Splunk recruiter to discuss the hiring process, followed by amazing software engineers speaking about their experiences and answering questions. Attendees had a chance to ask panelists any questions in breakout rooms about their career paths and more! There were 23 students in attendance for this event.                </p>
-                <div id="imageCarouselGHC" class="carousel slide" data-interval="5000" data-ride="carousel"
-                    data-pause="hover">
-                    <div class="carousel-inner">
-                        <div class="item active">
-                            <img class="center-block" src="img/Events/2020_2021/Term2/Apr_Splunk.jpg"
-                                class="img-responsive">
-                        </div>
-                    </div>
-                </div>
+          </div>
+        </div>
+        <div>
+          <h2>WiCS x Splunk Event</h2>
+          <h3>April 7th</h3>
+          <p>
+            This event featured a short presentation from a Splunk recruiter to
+            discuss the hiring process, followed by amazing software engineers
+            speaking about their experiences and answering questions. Attendees
+            had a chance to ask panelists any questions in breakout rooms about
+            their career paths and more! There were 23 students in attendance
+            for this event.
+          </p>
+          <div
+            id="imageCarouselGHC"
+            class="carousel slide"
+            data-interval="5000"
+            data-ride="carousel"
+            data-pause="hover"
+          >
+            <div class="carousel-inner">
+              <div class="item active">
+                <img
+                  class="center-block"
+                  src="img/Events/2020_2021/Term2/Apr_Splunk.jpg"
+                  class="img-responsive"
+                />
+              </div>
             </div>
-                <div>
-                <h2>WiCS x SAP Recruiting Event</h2>
-                <h3>March 16th</h3>
-                <p>During this event recruiters from SAP answered student questions and shared information about topics such as the SAP internship process, resume preparation, company culture, and more. There were 39 students in attendance. 
-                </p>
-                <div id="imageCarouselGHC" class="carousel slide" data-interval="5000" data-ride="carousel"
-                    data-pause="hover">
-                    <div class="carousel-inner">
-                        <div class="item active">
-                            <img class="center-block" src="img/Events/2020_2021/Term2/Mar_SAP.jpg"
-                                class="img-responsive">
-                        </div>
-                    </div>
-                </div>
+          </div>
+        </div>
+        <div>
+          <h2>WiCS x SAP Recruiting Event</h2>
+          <h3>March 16th</h3>
+          <p>
+            During this event recruiters from SAP answered student questions and
+            shared information about topics such as the SAP internship process,
+            resume preparation, company culture, and more. There were 39
+            students in attendance.
+          </p>
+          <div
+            id="imageCarouselGHC"
+            class="carousel slide"
+            data-interval="5000"
+            data-ride="carousel"
+            data-pause="hover"
+          >
+            <div class="carousel-inner">
+              <div class="item active">
+                <img
+                  class="center-block"
+                  src="img/Events/2020_2021/Term2/Mar_SAP.jpg"
+                  class="img-responsive"
+                />
+              </div>
             </div>
-            <div>
-                <h2>WiCS x Fortinet Recruiting Event</h2>
-                <h3>March 11th</h3>
-                <p>This was our second recruiting event with Fortinet! There were 15 students in attendance.
-                </p>
-                <div id="imageCarouselGHC" class="carousel slide" data-interval="5000" data-ride="carousel"
-                    data-pause="hover">
-                    <div class="carousel-inner">
-                        <div class="item active">
-                            <img class="center-block" src="img/Events/2020_2021/Term2/Mar_Fortinet.jpg"
-                                class="img-responsive">
-                        </div>
-                    </div>
-                </div>
+          </div>
+        </div>
+        <div>
+          <h2>WiCS x Fortinet Recruiting Event</h2>
+          <h3>March 11th</h3>
+          <p>
+            This was our second recruiting event with Fortinet! There were 15
+            students in attendance.
+          </p>
+          <div
+            id="imageCarouselGHC"
+            class="carousel slide"
+            data-interval="5000"
+            data-ride="carousel"
+            data-pause="hover"
+          >
+            <div class="carousel-inner">
+              <div class="item active">
+                <img
+                  class="center-block"
+                  src="img/Events/2020_2021/Term2/Mar_Fortinet.jpg"
+                  class="img-responsive"
+                />
+              </div>
             </div>
-            <div>
-                <h2>WiCS Arts and Crafts Destress Night</h2>
-                <h3>Feburary 15th</h3>
-                <p>Members got together during the reading week to destress and work on felt needle kits or other
-                    creative projects
-                    together!
-                </p>
-                <div id="imageCarouselGHC" class="carousel slide" data-interval="5000" data-ride="carousel"
-                    data-pause="hover">
-                    <div class="carousel-inner">
-                        <div class="item active">
-                            <!-- <img class="center-block" src="img/Events/2020_2021/Term2/"
+          </div>
+        </div>
+        <div>
+          <h2>WiCS Arts and Crafts Destress Night</h2>
+          <h3>Feburary 15th</h3>
+          <p>
+            Members got together during the reading week to destress and work on
+            felt needle kits or other creative projects together!
+          </p>
+          <div
+            id="imageCarouselGHC"
+            class="carousel slide"
+            data-interval="5000"
+            data-ride="carousel"
+            data-pause="hover"
+          >
+            <div class="carousel-inner">
+              <div class="item active">
+                <!-- <img class="center-block" src="img/Events/2020_2021/Term2/"
                                 class="img-responsive"> -->
-                        </div>
-                    </div>
-                </div>
+              </div>
             </div>
-            <div>
-                <h2>Technical Interview Workshop</h2>
-                <h3>Feburary 4th</h3>
-                <p>Our second technical interview event of the year was a huge success!
-                    During this event, small groups worked to solve a typical technical interview question with a mentor
-                    and ask any questions they had about this
-                    portion of the interview process. There were 25+ students and 24 mentors in attendance at this
-                    event!</p>
-                <div id="imageCarouselGHC" class="carousel slide" data-interval="5000" data-ride="carousel"
-                    data-pause="hover">
-                    <div class="carousel-inner">
-                        <div class="item active">
-                            <img class="center-block" src="img/Events/2020_2021/Term2/Feb_TechnicalInterview.png"
-                                class="img-responsive">
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div>
-                <h2>Meet WiCS Sponsor Company: Fortinet</h2>
-                <h3>Feburary 3rd</h3>
-                <p>At this event, Fortinet’s recruiters and students came together to discuss Fortinet's services,
-                    hiring process and much more. More than 20+ students attended this event.</p>
-                <div id="imageCarouselGHC" class="carousel slide" data-interval="5000" data-ride="carousel"
-                    data-pause="hover">
-                    <div class="carousel-inner">
-                        <div class="item active">
-                            <img class="center-block" src="img/Events/2020_2021/Term2/Feb_FortinetRecr.png"
-                                class="img-responsive">
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div>
-                <h2>Career Planning Event</h2>
-                <h3>January 14th
-                </h3>
-                <p>This event was focused on helping WiCS students understand the variety of careers paths that can come
-                    from having a degree
-                    in computer science, engineering or other relevant majors. Students connect and network with
-                    industry mentors. There were 69 students and 11 mentors in attendance at this event!</p>
-                <div id="imageCarouselGHC" class="carousel slide" data-interval="5000" data-ride="carousel"
-                    data-pause="hover">
-                    <div class="carousel-inner">
-                        <div class="item active">
-                            <img class="center-block" src="img/Events/2020_2021/Term2/Jan_CareerPlanning.png"
-                                class="img-responsive">
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div>
-                <h2>WiCS Holiday Party Event</h2>
-                <h3>December 22nd</h3>
-                <p>UBC WiCS members gathered for some post-finals fun and relaxation at this event! Smaller groups
-                    played games
-                    like Among Us and pictionary,
-                    and also created some fun seasonal art all together! </p>
-                <div id="imageCarouselGHC" class="carousel slide" data-interval="5000" data-ride="carousel"
-                    data-pause="hover">
-                    <div class="carousel-inner">
-                        <div class="item active">
-                            <img class="center-block" src="img/Events/2020_2021/Term1/Dec_HolidayParty.png"
-                                class="img-responsive">
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div>
-                <h2>WiCS-ters Meet and Greet</h2>
-                <h3>November 26th</h3>
-                <p>This joint event with SFU WiCS took place with the purpose of fostering a community where
-                    undergraduate and graduate students can network, seek career advice,
-                    and share life stories in a safe space. The event featured speed networking with icebreaker
-                    questions and a brainstorming session for planning
-                    career, research and social oriented events for the future. </p>
-                <div id="imageCarouselGHC" class="carousel slide" data-interval="5000" data-ride="carousel"
-                    data-pause="hover">
-                    <div class="carousel-inner">
-                        <div class="item active">
-                            <img class="center-block" src="img/Events/2020_2021/Term1/WiCSters.png"
-                                class="img-responsive">
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <br>
-            <div>
-                <h2>Resume Review and Behavioral Workshop</h2>
-                <h3>November 10th</h3>
-                <p>
-                    The focus of this event was to help women* in Computer Science students at UBC to prepare for resume
-                    and recruiter screening rounds of
-                    interviews. Students were matched up with an industry mentor to review their resume with and
-                    practice answering some behavioral
-                    interview questions! There were 8 mentors and 20 students at this event!
-                </p>
-                <div id="imageCarouselResume" class="carousel slide" data-interval="5000" data-ride="carousel"
-                    data-pause="hover">
-                    <div class="carousel-inner">
-                        <div class="item active">
-                            <img class="center-block"
-                                src="img/Events/2020_2021/Term1/Nov_ResumeBehavioralInterviewWorkshop.png"
-                                class="img-responsive">
-                        </div>
-                        <div class="item">
-                            <img class="center-block" src="img/Events/2020_2021/Term1/ResumeWorkShopMentors.png"
-                                class="img-responsive">
-                        </div>
-                    </div>
-                    <a href="#imageCarouselResume" class="carousel-control left" data-slide="prev">
-                        <span class="glyphicon glyphicon-chevron-left"></span>
-                    </a>
-                    <a href="#imageCarouselResume" class="carousel-control right" data-slide="next">
-                        <span class="glyphicon glyphicon-chevron-right"></span>
-                    </a>
-                </div>
-            </div>
-            <br>
-            <div>
-                <h2>Virtual Halloween Party</h2>
-                <h3>October 30th</h3>
-                <p>This social event featured a spooky virtual scavenger and competitive costume contest!</p>
-                <div id="imageCarouselGHC" class="carousel slide" data-interval="5000" data-ride="carousel"
-                    data-pause="hover">
-                    <div class="carousel-inner">
-                        <div class="item active">
-                            <img class="center-block" src="img/Events/2020_2021/Term1/Oct_HalloweenParty.png"
-                                class="img-responsive">
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <br>
-            <div>
-                <h2>Technical Interview Workshop</h2>
-                <h3>October 21st</h3>
-                <p>Being comfortable with technical interview takes practice, practice, practice! At this mock interview
-                    event, UBC WiCS members had the chance to interact with mentors from various companies and learn
-                    about their interviewing experiences. They were paired with one
-                    paired with one industry mentor and possibly one other student and provided with a typical interview
-                    question to discuss and solve. We had 27 attendees at this event!</p>
-                <div class="responsive-iframe-container container text-center">
-                    <div id="imageCarouselTechInterView" class="carousel slide" data-interval="5000"
-                        data-ride="carousel" data-pause="hover">
-
-                        <div class="carousel-inner">
-                            <div class="item active">
-                                <img class="center-block" src="img/Events/2020_2021/Term1/Oct_TechnicalWorkshop.png"
-                                    class="img-responsive">
-                            </div>
-                            <div class="item">
-                                <img class="center-block" src="img/Events/2020_2021/Term1/Oct_TechnicalWorkshop_1.jpg"
-                                    class="img-responsive">
-                            </div>
-                            <div class="item">
-                                <img class="center-block" src="img/Events/2020_2021/Term1/Oct_TechnicalWorkshop_2.png"
-                                    class="img-responsive">
-                            </div>
-                            <div class="item">
-                                <img class="center-block" src="img/Events/2020_2021/Term1/Oct_TechnicalWorkshop_3.png"
-                                    class="img-responsive">
-                            </div>
-
-                        </div>
-                        <a href="#imageCarouselTechInterView" class="carousel-control left" data-slide="prev">
-                            <span class="glyphicon glyphicon-chevron-left"></span>
-                        </a>
-                        <a href="#imageCarouselTechInterView" class="carousel-control right" data-slide="next">
-                            <span class="glyphicon glyphicon-chevron-right"></span>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <br>
-            <div>
-                <h2>Exec Ask Me Anything</h2>
-                <h3>September 16th, 2020</h3>
-                <p>This was our first official social event of the year! UBC WiCS members had the chance to ask execs
-                    ANYTHING they wanted, topics discussed included co-op applications, course planning, career
-                    development, personal project, mentoring and hackathons!
-                </p>
-            </div>
-            <br>
-            <div>
-                <h2>Imagine Day</h2>
-                <h3>September 8th, 2020</h3>
-                <p>Although a wildly different year than last, we kicked off the year with enthusiasm and excitedness at
-                    our virtual Imagine Day booth and engaged with women* UBC students from different years!</p>
-            </div>
-
-
+          </div>
         </div>
+        <div>
+          <h2>Technical Interview Workshop</h2>
+          <h3>Feburary 4th</h3>
+          <p>
+            Our second technical interview event of the year was a huge success!
+            During this event, small groups worked to solve a typical technical
+            interview question with a mentor and ask any questions they had
+            about this portion of the interview process. There were 25+ students
+            and 24 mentors in attendance at this event!
+          </p>
+          <div
+            id="imageCarouselGHC"
+            class="carousel slide"
+            data-interval="5000"
+            data-ride="carousel"
+            data-pause="hover"
+          >
+            <div class="carousel-inner">
+              <div class="item active">
+                <img
+                  class="center-block"
+                  src="img/Events/2020_2021/Term2/Feb_TechnicalInterview.png"
+                  class="img-responsive"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <h2>Meet WiCS Sponsor Company: Fortinet</h2>
+          <h3>Feburary 3rd</h3>
+          <p>
+            At this event, Fortinet’s recruiters and students came together to
+            discuss Fortinet's services, hiring process and much more. More than
+            20+ students attended this event.
+          </p>
+          <div
+            id="imageCarouselGHC"
+            class="carousel slide"
+            data-interval="5000"
+            data-ride="carousel"
+            data-pause="hover"
+          >
+            <div class="carousel-inner">
+              <div class="item active">
+                <img
+                  class="center-block"
+                  src="img/Events/2020_2021/Term2/Feb_FortinetRecr.png"
+                  class="img-responsive"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <h2>Career Planning Event</h2>
+          <h3>January 14th</h3>
+          <p>
+            This event was focused on helping WiCS students understand the
+            variety of careers paths that can come from having a degree in
+            computer science, engineering or other relevant majors. Students
+            connect and network with industry mentors. There were 69 students
+            and 11 mentors in attendance at this event!
+          </p>
+          <div
+            id="imageCarouselGHC"
+            class="carousel slide"
+            data-interval="5000"
+            data-ride="carousel"
+            data-pause="hover"
+          >
+            <div class="carousel-inner">
+              <div class="item active">
+                <img
+                  class="center-block"
+                  src="img/Events/2020_2021/Term2/Jan_CareerPlanning.png"
+                  class="img-responsive"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <h2>WiCS Holiday Party Event</h2>
+          <h3>December 22nd</h3>
+          <p>
+            UBC WiCS members gathered for some post-finals fun and relaxation at
+            this event! Smaller groups played games like Among Us and
+            pictionary, and also created some fun seasonal art all together!
+          </p>
+          <div
+            id="imageCarouselGHC"
+            class="carousel slide"
+            data-interval="5000"
+            data-ride="carousel"
+            data-pause="hover"
+          >
+            <div class="carousel-inner">
+              <div class="item active">
+                <img
+                  class="center-block"
+                  src="img/Events/2020_2021/Term1/Dec_HolidayParty.png"
+                  class="img-responsive"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <h2>WiCS-ters Meet and Greet</h2>
+          <h3>November 26th</h3>
+          <p>
+            This joint event with SFU WiCS took place with the purpose of
+            fostering a community where undergraduate and graduate students can
+            network, seek career advice, and share life stories in a safe space.
+            The event featured speed networking with icebreaker questions and a
+            brainstorming session for planning career, research and social
+            oriented events for the future.
+          </p>
+          <div
+            id="imageCarouselGHC"
+            class="carousel slide"
+            data-interval="5000"
+            data-ride="carousel"
+            data-pause="hover"
+          >
+            <div class="carousel-inner">
+              <div class="item active">
+                <img
+                  class="center-block"
+                  src="img/Events/2020_2021/Term1/WiCSters.png"
+                  class="img-responsive"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <br />
+        <div>
+          <h2>Resume Review and Behavioral Workshop</h2>
+          <h3>November 10th</h3>
+          <p>
+            The focus of this event was to help women* in Computer Science
+            students at UBC to prepare for resume and recruiter screening rounds
+            of interviews. Students were matched up with an industry mentor to
+            review their resume with and practice answering some behavioral
+            interview questions! There were 8 mentors and 20 students at this
+            event!
+          </p>
+          <div
+            id="imageCarouselResume"
+            class="carousel slide"
+            data-interval="5000"
+            data-ride="carousel"
+            data-pause="hover"
+          >
+            <div class="carousel-inner">
+              <div class="item active">
+                <img
+                  class="center-block"
+                  src="img/Events/2020_2021/Term1/Nov_ResumeBehavioralInterviewWorkshop.png"
+                  class="img-responsive"
+                />
+              </div>
+              <div class="item">
+                <img
+                  class="center-block"
+                  src="img/Events/2020_2021/Term1/ResumeWorkShopMentors.png"
+                  class="img-responsive"
+                />
+              </div>
+            </div>
+            <a
+              href="#imageCarouselResume"
+              class="carousel-control left"
+              data-slide="prev"
+            >
+              <span class="glyphicon glyphicon-chevron-left"></span>
+            </a>
+            <a
+              href="#imageCarouselResume"
+              class="carousel-control right"
+              data-slide="next"
+            >
+              <span class="glyphicon glyphicon-chevron-right"></span>
+            </a>
+          </div>
+        </div>
+        <br />
+        <div>
+          <h2>Virtual Halloween Party</h2>
+          <h3>October 30th</h3>
+          <p>
+            This social event featured a spooky virtual scavenger and
+            competitive costume contest!
+          </p>
+          <div
+            id="imageCarouselGHC"
+            class="carousel slide"
+            data-interval="5000"
+            data-ride="carousel"
+            data-pause="hover"
+          >
+            <div class="carousel-inner">
+              <div class="item active">
+                <img
+                  class="center-block"
+                  src="img/Events/2020_2021/Term1/Oct_HalloweenParty.png"
+                  class="img-responsive"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <br />
+        <div>
+          <h2>Technical Interview Workshop</h2>
+          <h3>October 21st</h3>
+          <p>
+            Being comfortable with technical interview takes practice, practice,
+            practice! At this mock interview event, UBC WiCS members had the
+            chance to interact with mentors from various companies and learn
+            about their interviewing experiences. They were paired with one
+            paired with one industry mentor and possibly one other student and
+            provided with a typical interview question to discuss and solve. We
+            had 27 attendees at this event!
+          </p>
+          <div class="responsive-iframe-container container text-center">
+            <div
+              id="imageCarouselTechInterView"
+              class="carousel slide"
+              data-interval="5000"
+              data-ride="carousel"
+              data-pause="hover"
+            >
+              <div class="carousel-inner">
+                <div class="item active">
+                  <img
+                    class="center-block"
+                    src="img/Events/2020_2021/Term1/Oct_TechnicalWorkshop.png"
+                    class="img-responsive"
+                  />
+                </div>
+                <div class="item">
+                  <img
+                    class="center-block"
+                    src="img/Events/2020_2021/Term1/Oct_TechnicalWorkshop_1.jpg"
+                    class="img-responsive"
+                  />
+                </div>
+                <div class="item">
+                  <img
+                    class="center-block"
+                    src="img/Events/2020_2021/Term1/Oct_TechnicalWorkshop_2.png"
+                    class="img-responsive"
+                  />
+                </div>
+                <div class="item">
+                  <img
+                    class="center-block"
+                    src="img/Events/2020_2021/Term1/Oct_TechnicalWorkshop_3.png"
+                    class="img-responsive"
+                  />
+                </div>
+              </div>
+              <a
+                href="#imageCarouselTechInterView"
+                class="carousel-control left"
+                data-slide="prev"
+              >
+                <span class="glyphicon glyphicon-chevron-left"></span>
+              </a>
+              <a
+                href="#imageCarouselTechInterView"
+                class="carousel-control right"
+                data-slide="next"
+              >
+                <span class="glyphicon glyphicon-chevron-right"></span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <br />
+        <div>
+          <h2>Exec Ask Me Anything</h2>
+          <h3>September 16th, 2020</h3>
+          <p>
+            This was our first official social event of the year! UBC WiCS
+            members had the chance to ask execs ANYTHING they wanted, topics
+            discussed included co-op applications, course planning, career
+            development, personal project, mentoring and hackathons!
+          </p>
+        </div>
+        <br />
+        <div>
+          <h2>Imagine Day</h2>
+          <h3>September 8th, 2020</h3>
+          <p>
+            Although a wildly different year than last, we kicked off the year
+            with enthusiasm and excitedness at our virtual Imagine Day booth and
+            engaged with women* UBC students from different years!
+          </p>
+        </div>
+      </div>
     </section>
-    <section class="padding-top">
-    </section>
+    <section class="padding-top"></section>
     <!--/#portfolio-information-->
-    <section class="padding-top">
-    </section>
+    <section class="padding-top"></section>
     <footer id="footer">
-        <br>
+      <br />
+      <div class="container">
         <div class="container">
-            <div class="container">
-                <div class="row">
-                    <p>UBC Vancouver is located on the traditional, ancestral and unceded territory of the xʷməθkʷəy̓əm
-                        (Musqueam).
-                        <br> <br>
-                        The UBC WiCS team would also like to acknowledge that "female" or "women" is not an accurate
-                        description for many people and it may make some feel unwelcome. We use women* to specifically
-                        and
-                        intentionally include cis and trans women, as well as non-binary, agender, or intersex people
-                        and
-                        other gender minorities.
-                    </p>
-                    <p>Copyright © UBC Women in Computer Science 2019. All Rights Reserved</p>
-
-                </div>
-            </div>
+          <div class="row">
+            <p>
+              UBC Vancouver is located on the traditional, ancestral and unceded
+              territory of the xʷməθkʷəy̓əm (Musqueam). <br />
+              <br />
+              The UBC WiCS team would also like to acknowledge that "female" or
+              "women" is not an accurate description for many people and it may
+              make some feel unwelcome. We use women* to specifically and
+              intentionally include cis and trans women, as well as non-binary,
+              agender, or intersex people and other gender minorities.
+            </p>
+            <p>
+              Copyright © UBC Women in Computer Science 2019. All Rights
+              Reserved
+            </p>
+          </div>
         </div>
+      </div>
     </footer>
     <!--/#footer-->
-
 
     <script type="text/javascript" src="js/jquery.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/lightbox.min.js"></script>
     <script type="text/javascript" src="js/wow.min.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
-</body>
-
+  </body>
 </html>
