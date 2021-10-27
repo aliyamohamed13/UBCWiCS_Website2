@@ -68,6 +68,10 @@ h2 {
   color: #373737;
 }
 
+.company-info {
+  background-color: rgba(253, 246, 236, 0.51);
+}
+
 #company-information h2 {
   color: #373737;
 }
@@ -386,29 +390,50 @@ ul.sub-menu {
 #footer {
   padding-bottom: 10px;
   /* background-image: url(../images/home/footer.png); */
-  background-repeat: repeat-x;
+  /*  background-repeat: repeat-x;
   background-position: bottom;
-  background-size: contain;
+  background-size: contain; */
   background-color: #fff;
 }
 
 #footer h1 {
-  margin-bottom: 65px;
-  margin-top: 36px;
+  margin-bottom: 10px;
+  margin-top: 10px;
   color: #373737;
 }
 
 #footer p {
-  text-align: center;
+  text-align: left;
   color: #373737;
+  font-size: 10px;
 }
 
 #footer .bottom-separator {
   margin-bottom: 60px;
 }
 
+.footer-container {
+  width: 100%;
+  height: 200px;
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.footer-text-container {
+  display: flex;
+  width: 100%;
+  padding-bottom: 20px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  color: rgba(155, 153, 248, 0.8);
+}
+
 #message {
-  height: 110px;
+  /* height: 110px; */
   resize: none;
 }
 
@@ -770,6 +795,38 @@ ul.sub-menu {
 }
 
 /*************************
+*******Calendar******
+**************************/
+
+@media (max-width: 550px) {
+  .big-container {
+    display: none;
+  }
+}
+@media (min-width: 550px) {
+  .small-container {
+    display: none;
+  }
+}
+/* Responsive iFrame */
+.responsive-iframe-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+}
+.responsive-iframe-container iframe,
+.vresponsive-iframe-container object,
+.vresponsive-iframe-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/*************************
 *******About Us Page******
 **************************/
 
@@ -798,7 +855,7 @@ ul.sub-menu {
 }
 
 #company-information .padding-top {
-  padding-top: 172px;
+  /* padding-top: 172px; */
 }
 
 .single-service img {
@@ -846,7 +903,7 @@ ul.sub-menu {
 }
 
 .social-profile {
-  background: none repeat scroll 0 0 rgba(137, 97, 46, 0.8);
+  background: none repeat scroll 0 0 #7f7ff4;
   display: none;
   position: absolute;
   text-align: center;
@@ -922,7 +979,7 @@ ul.sub-menu {
 
 .person-info h3 {
   font-size: 16px;
-  color: #686868;
+  color: #373737;
   font-weight: 300;
   margin-top: 0;
   margin-bottom: 0;
@@ -940,12 +997,12 @@ ul.sub-menu {
 
 .right.team-carousel-control {
   right: -50px;
-  background-image: url(../images/aboutus/right.png);
+  background-image: url(../images/aboutus/rightarrow.png);
 }
 
 .left.team-carousel-control {
   left: -50px;
-  background-image: url(../images/aboutus/left.png);
+  background-image: url(../images/aboutus/leftarrow.png);
 }
 
 .team-carousel-control:hover {
@@ -956,7 +1013,7 @@ ul.sub-menu {
 
 .count h1 {
   font-size: 60px;
-  color: #00aeef;
+  color: #373737;
 }
 
 .count h3 {
@@ -977,7 +1034,7 @@ h3.top-zero {
 }
 
 #company-information .about-us h2 {
-  margin-bottom: 45px;
+  /* margin-bottom: 45px; */
 }
 
 .single-skill h3 {
@@ -997,7 +1054,7 @@ h3.top-zero {
 }
 
 .progress-bar.progress-bar-primary {
-  background: #00aeef;
+  background: #373737;
 }
 
 /*************************
@@ -1020,11 +1077,11 @@ h3.top-zero {
 }
 
 #company-information.choose .padding-top {
-  padding-top: 50px;
+  /* padding-top: 50px; */
 }
 
 #company-information h2 {
-  margin-bottom: 25px;
+  /* margin-bottom: 25px; */
   margin-top: 0;
 }
 
@@ -1039,13 +1096,13 @@ ul.elements li {
 }
 
 ul.elements li > i {
-  color: #c03035;
+  color: #373737;
   display: inline-block;
   margin-right: 10px;
 }
 
 #company-information h1.margin-bottom {
-  margin-bottom: 26px;
+  /* margin-bottom: 26px; */
 }
 
 /*************************
@@ -1080,7 +1137,7 @@ ul.elements li > i {
   position: absolute;
   top: 0;
   height: 100%;
-  background: rgba(112, 35, 64, 0.9);
+  background: #373737;
   width: 100%;
   text-align: center;
 }
@@ -1114,8 +1171,8 @@ ul.elements li > i {
 }
 
 .portfolio-view .nav-pills li a:hover {
-  color: #702340;
-  border-color: #702340;
+  color: #7f7ff4;
+  border-color: #7f7ff4;
   -webkit-transition: all 0.9s ease;
   transition: all 0.9s ease;
 }
@@ -1241,8 +1298,8 @@ ul.elements li > i {
 .pagination .active a:focus,
 .pagination a:focus {
   background: transparent;
-  border-color: #c03035;
-  color: #c03035;
+  border-color: #7f7ff4;
+  color: #7f7ff4;
 }
 
 /*****************************
@@ -1265,6 +1322,7 @@ HomePage/Sponsor Div
 .sponsor-row-div {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
 }
@@ -1278,9 +1336,7 @@ HomePage/Sponsor Div
 
 .sponsor-section {
   background-color: rgba(253, 246, 236, 0.51);
-  padding-bottom: 10px;
-  padding-top: 20px;
-  height: 600px;
+  height: 700px;
 }
 
 /*****************************
@@ -1288,8 +1344,13 @@ HomePage/Calendar Div
 *****************************/
 
 .calendar-container {
-  padding-top: 50px;
-  padding-bottom: 20px;
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 50px;
 }
 
 /*****************************
@@ -1331,14 +1392,14 @@ Portfolio with right sidebar
 }
 
 .categories .navbar-stacked li.active a {
-  color: #0099ae;
+  color: #7f7ff4;
   padding-left: 20px;
 }
 
 .categories .navbar-stacked li.active a:before {
   position: absolute;
   content: "";
-  border-color: transparent transparent transparent #0099ae;
+  border-color: transparent transparent transparent #7f7ff4;
   border-width: 8px;
   border-style: solid;
   left: 0;
@@ -1384,7 +1445,7 @@ Portfolio with right sidebar
 }
 
 .sidebar-item .media:hover {
-  border-left: 2px solid #0099ae;
+  border-left: 2px solid #7f7ff4;
   padding-left: 5px;
   transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
@@ -1393,7 +1454,7 @@ Portfolio with right sidebar
 }
 
 .sidebar-item .media:hover.media .media-body h4 a {
-  color: #0099ae;
+  color: #7f7ff4;
   transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -webkit-transition: all 0.3s ease 0s;
@@ -1435,7 +1496,7 @@ Portfolio with right sidebar
 }
 
 .tag-cloud .nav-pills li a:hover {
-  background: #0099ae;
+  background: #7f7ff4;
 }
 
 .popular ul.gallery {
@@ -1487,6 +1548,7 @@ Portfolio with right sidebar
 
 .contact-parent-div {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   align-items: center;
   justify-content: center;
@@ -2098,7 +2160,7 @@ span.stButton_gradient,
 
 #map-section .contact-info {
   position: absolute;
-  background-color: #7c3651;
+  background-color: #7f7ff4;
   right: 0;
   top: 0;
   width: 33%;
