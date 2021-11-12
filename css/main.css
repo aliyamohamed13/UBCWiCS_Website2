@@ -707,6 +707,10 @@ ul.sub-menu {
 
 .service-section {
   background-color: rgba(253, 246, 236, 0.51);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 
 .single-service {
