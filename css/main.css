@@ -1704,10 +1704,45 @@ h3 {
 /*****************************
 Sponsor Page
 *****************************/
+.sponsor-page-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 40px;
+}
+
+.sponsor-page-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.sponsor-logo-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 20px;
+  width: 400px;
+  height: 200px;
+  box-sizing: border-box;
+}
+
+.sponsor-bio-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+  width: 100%;
+}
 
 .sponsor-pg-parent {
   padding-top: 20px;
   padding-bottom: 50px;
+  box-sizing: border-box;
 }
 
 /*****************************
