@@ -1341,7 +1341,12 @@ HomePage/Sponsor Div
 
 .sponsor-section {
   background-color: rgba(253, 246, 236, 0.51);
-  height: 700px;
+}
+
+.sponsor-footer {
+  justify-content: start;
+  padding: 20px;
+  margin-top: 20px;
 }
 
 /*****************************
